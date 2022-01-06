@@ -1,0 +1,45 @@
+body{
+    background-color: #80d8ff;
+    color: #fff;
+}
+h1 {
+    font-family: 'Marker Felt', fantasy;
+    color: #ff8c00;
+    text-align: center;
+    font-size: 100px;
+}
+button{
+    font-size: 50px;
+    background-color: #ff8c00;
+    text-align: center;
+    border: #000000;
+}
+
+button:hover{
+    background-color: #ff8c11;
+}
+
+a {
+    font-size: 30px;
+    color: #f00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+form{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+    word-spacing: 30px;
+    width: 60%;
+    font-family: 'Chalkduster', fantasy;
+}
