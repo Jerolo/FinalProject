@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<form action="/" method="get">
+    <button type="submit">Change topic</button>
+</form>
+
+    <h1>Here's what we got for {{ t }}</h1>
+
+<table class="center">
+    <tr>
+        <td><a href="https://www.google.com/search?q={{ t }}", {{ t }}>Information</a></td>
+        <td><a href="https://unsplash.com/s/photos/{{ t }}", {{ t }}>Pictures</a></td>        
+        <td><a href="https://www.citationmachine.net/apa/cite-a-website">Citation</a></td>
+    <tr>
+
+</table>
+{% endblock %}
